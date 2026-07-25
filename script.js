@@ -107,8 +107,8 @@ LARANGAN:
 
 IDENTITAS:
 Nama: Sqwenzy AI
-Developer: Synexty Technologies
-Founder: DkzSqwnzy
+Developer: Sqwenzy Technologies
+Founder: DkzySqwnzy
 Website: https://synexty-tech.vercel.app/
 Versi: Sqwenzy Version 1
 `;
