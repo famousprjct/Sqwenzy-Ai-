@@ -17,7 +17,6 @@
   <div class="auth-card" id="loginView">
 
     <div class="auth-brand">
-      <span class="brand-mark">N</span>
       <span class="brand-name">Sqwenzy Ai</span>
     </div>
 
@@ -32,7 +31,7 @@
 
     <p class="auth-switch">Belum punya akun? <button type="button" id="goToSignup">Daftar di sini</button></p>
 
-    <p class="auth-note">Akun disimpan di HP ini aja (localStorage), bukan cloud.</p>
+    <p class="auth-note">Developed By Sqwenzy Technologies</p>
 
   </div>
 
@@ -40,7 +39,6 @@
   <div class="auth-card hidden" id="signupView">
 
     <div class="auth-brand">
-      <span class="brand-mark">N</span>
       <span class="brand-name">Sqwenzy Ai</span>
     </div>
 
@@ -53,9 +51,9 @@
       <p class="auth-error" id="signupError"></p>
     </form>
 
-    <p class="auth-switch">Udah punya akun? <button type="button" id="goToLogin">Masuk di sini</button></p>
+    <p class="auth-switch">Sudah punya akun? <button type="button" id="goToLogin">Masuk di sini</button></p>
 
-    <p class="auth-note">Akun disimpan di HP ini aja (localStorage), bukan cloud.</p>
+    <p class="auth-note">Developed By Sqwenzy Technologies</p>
 
   </div>
 
@@ -108,13 +106,13 @@
       </div>
 
       <form id="settingsForm" class="auth-form">
-        <label class="modal-label">Username baru (kosongin kalau gak diubah)</label>
+        <label class="modal-label">Username baru</label>
         <input type="text" id="newUsername" placeholder="Username baru" autocomplete="off">
 
-        <label class="modal-label">Password baru (kosongin kalau gak diubah)</label>
+        <label class="modal-label">Password baru</label>
         <input type="password" id="newPassword" placeholder="Password baru (min 6 karakter)" autocomplete="new-password">
 
-        <label class="modal-label">Password sekarang (wajib buat konfirmasi)</label>
+        <label class="modal-label">Konfirmasi password baru</label>
         <input type="password" id="currentPassword" placeholder="Password sekarang" autocomplete="current-password" required>
 
         <button type="submit" class="auth-submit">Simpan Perubahan</button>
@@ -128,7 +126,7 @@
   <div class="modal-overlay hidden" id="deleteModal">
     <div class="modal-card modal-card-sm">
       <h3>Hapus chat ini?</h3>
-      <p class="modal-text">Chat yang dihapus gak bisa dibalikin lagi.</p>
+      <p class="modal-text">Chat yang dihapus tidak bisa dikembalikan lagi</p>
       <div class="modal-actions">
         <button class="modal-btn-cancel" id="cancelDelete" type="button">Batal</button>
         <button class="modal-btn-danger" id="confirmDelete" type="button">Hapus</button>
@@ -140,9 +138,9 @@
   <div class="modal-overlay hidden" id="limitModal">
     <div class="modal-card modal-card-sm">
       <h3>⏳ Limit harian habis</h3>
-      <p class="modal-text">Kamu udah pake semua jatah chat hari ini. Balik lagi besok ya!</p>
+      <p class="modal-text">Kamu sudah menggunakan semua jatah chat hari ini. Coba lagi nanti</p>
       <div class="modal-actions">
-        <button class="modal-btn-cancel modal-btn-full" id="closeLimitModal" type="button">Oke, ngerti</button>
+        <button class="modal-btn-cancel modal-btn-full" id="closeLimitModal" type="button">Oke, Terimakasih</button>
       </div>
     </div>
   </div>
@@ -195,7 +193,7 @@
           </svg>
         </button>
       </form>
-      <span class="composer-hint">Developed By Synexty Technologies</span>
+      <span class="composer-hint">Developed By Sqwenzy Technologies</span>
     </div>
 
   </main>
